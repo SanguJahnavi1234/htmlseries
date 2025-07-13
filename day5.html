@@ -1,0 +1,93 @@
+Tables in HTML
+
+Tables are used to display data in rows and columns —
+ like timetables, reports, or comparison charts.
+
+Common Table Tags:
+Tag	Description
+<table>	Defines the table
+<tr>	Table row
+<th>	Table header cell (bold + centered)
+<td>	Table data cell
+colspan	Attribute to merge columns
+rowspan	Attribute to merge rows
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Marks</h2>
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td>Riya</td>
+    <td>Math</td>
+    <td>90</td>
+  </tr>
+  <tr>
+    <td>Arjun</td>
+    <td>Science</td>
+    <td>85</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Invoice Summary</h2>
+<table border="2">
+  <tr>
+    <th colspan="2">Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td colspan="2">Notebook</td>
+    <td>₹50</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Schedule</h2>
+<table border="1">
+  <tr>
+    <th rowspan="2">Time</th>
+    <th>Monday</th>
+  </tr>
+  <tr>
+    <td>10 AM - 11 AM</td>
+  </tr>
+</table>
+
+</body>
+</html>
