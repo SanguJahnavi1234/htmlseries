@@ -1,0 +1,64 @@
+ Day 6: Forms & Input Elements in HTML
+ Forms are used to collect user data — like login info, contact details, and survey responses.
+
+
+ Common Form Tags:
+Tag	Description
+<form>	Defines the form area
+<input>	Accepts user input (text, password, etc.)
+<label>	Describes the input field
+<textarea>	For multi-line text
+<button> or <input type="submit">	For form submission
+<select> & <option>	For dropdown lists
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+
+ More Input Types:
+ <input type="password">
+<input type="radio">
+<input type="checkbox">
+<input type="date">
+<input type="file">
+
+Dropdown List Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="course">Choose a course:</label>
+<select id="course" name="course">
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="js">JavaScript</option>
+</select>
+</body>
+</html>
+
