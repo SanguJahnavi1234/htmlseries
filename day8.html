@@ -1,0 +1,38 @@
+Day 8: Multimedia in HTML – Images, Audio, and Video
+
+Multimedia makes web pages interactive and engaging. In HTML, you can embed images, audio, and video using built-in tags.
+
+1. Images – Already covered in Day 4, but here’s a quick refresher:
+
+<img src="image.jpg" alt="Description" width="300">
+
+2. Embedding Audio
+Use the <audio> tag with the controls attribute to allow play/pause.
+<h2>Audio Example</h2>
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+You can also loop, autoplay, or mute audio:
+
+<audio controls autoplay loop muted>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+3. Embedding Video
+Use the <video> tag to display a playable video on your page.
+<h2>Video Example</h2>
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Just like audio, you can use:
+
+autoplay – Start playing when loaded
+
+loop – Restart automatically
+
+muted – Start muted
+
+poster="thumbnail.jpg" – Show an image before video starts
