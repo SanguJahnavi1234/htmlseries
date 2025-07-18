@@ -1,0 +1,47 @@
+Day 10: Embedding External Content with <iframe> in HTML::
+
+The <iframe> tag allows you to embed external web pages, videos, maps, and more directly into your HTML document.
+
+What is <iframe>?
+Iframe stands for inline frame — it acts like a window inside your webpage that shows content from another URL.
+
+Basic Syntax:
+
+<iframe src="https://example.com" width="600" height="400"></iframe>
+
+Example 1: Embed a Website
+
+<h2>Embedded Website</h2>
+<iframe src="https://www.wikipedia.org" width="100%" height="500px">
+  Your browser does not support iframes.
+</iframe>
+
+Example 2: Embed a YouTube Video
+
+<h2>Embedded YouTube Video</h2>
+<iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+🧱 Example 3: Embed Google Maps
+
+<h2>Embedded Google Map</h2>
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!..." 
+  width="600" height="450" style="border:0;" 
+  allowfullscreen="" loading="lazy">
+</iframe>
+
+
+
+ Notes:
+
+1.Some sites use X-Frame-Options to block embedding
+2.Always use trusted sources
+3.Great for tutorials, demos, maps, forms, etc.
+
+
+
